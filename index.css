@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 320px;
+    margin: 40px auto; 
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    margin: 0 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 20px;
+}
+
+header img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    min-height: 80vh;
+    width: 100%;
+}
+
+nav {
+    width: 180px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 5px solid #0056b3;
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div .descricao {
+    flex-grow: 1;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    background: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #ddd;
+    color: #555;
+    font-style: italic;
+}
+
+.filmes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.filme {
+    flex: 0 1 100px;
+    text-align: center;
+}
+
+.filme img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.filme img:hover {
+    transform: scale(1.1);
+}
+
+.filme p {
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.filtros {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.filtro-link {
+    color: #007BFF;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 6px;
+}
+
+.filtro-link:hover {
+    text-decoration: underline;
+}
+
+.barra {
+    color: #555;
+    padding: 0 6px;
+    user-select: none;
+}
+
+.contato-container {
+    padding: 20px;
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.form-contato button {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-contato button:hover {
+    background-color: #0056b3;
+}
+    
+.filme-detalhes-container {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.filme-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cartaz img {
+    max-width: 250px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.descricao {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.descricao p {
+    margin-bottom: 10px;
+}
